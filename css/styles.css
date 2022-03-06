@@ -154,9 +154,9 @@ ul {
 }
 
 .quote .container {
-    padding: 90px 0px;
+    padding: 90px 40px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
     max-width: 650px;
