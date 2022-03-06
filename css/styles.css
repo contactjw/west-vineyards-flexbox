@@ -121,6 +121,8 @@ ul {
 .boxes .container {
     display: flex;
     justify-content: space-between;
+    align-content: center;
+    max-width: 700px;
 }
 
 .image-box {
@@ -143,9 +145,28 @@ ul {
 }
 
 .quote .container {
+    padding: 90px 0px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 650px;
 }
+
+.quote-text {
+    font-size: 30px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.signature {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+/* ---------Sign-up section css-------- */
+
 
 
 
