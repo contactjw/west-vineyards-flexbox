@@ -104,13 +104,18 @@ ul {
     color:lightblue;
 }
 
-/* ---------Informatiion section css-------- */
+/* ---------Information section css-------- */
+
+.boxes {
+    margin: 40px 0px;
+}
+
 .boxes .information {
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
     text-align: center;
-    margin: 20px 0px;
+    margin-bottom: 20px;
 }
 
 .boxes .container {
@@ -130,6 +135,18 @@ ul {
     max-height: 300px;
     margin-bottom: 10px;
 }
+
+/* ---------Quote section css-------- */
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote .container {
+    display: flex;
+    justify-content: center;
+}
+
 
 
 
