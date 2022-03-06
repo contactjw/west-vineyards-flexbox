@@ -92,6 +92,7 @@ ul {
     font-weight: bold;
     color: #F9FAF8;
     width: 100px;
+    height: 30px;
     margin: 10px 0px;
     padding: 5px;
     text-align: center;
@@ -138,6 +139,10 @@ ul {
     flex: 1;
     margin: 10px 10px;
     max-width: 300px;
+}
+
+.image-box p {
+    text-align: center;
 }
 
 .image-box img {
@@ -202,6 +207,22 @@ ul {
     font-weight: bold;
 }
 
+/* ---------Footer section css-------- */
+.footer-section {
+    background-color: #1F2937;
+}
 
+.footer-section .container {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-section p {
+    color:#F9FAF8;
+    font-size: 11px;
+    font-weight: 400;
+    
+}
 
 
