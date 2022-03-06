@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -9,6 +10,8 @@
     margin: 0 auto;
     padding: 0 30px;
 }
+
+/* ---------Navbar css-------- */
 
 ul {
     list-style-type: none;
@@ -52,6 +55,9 @@ ul {
     margin-left: 20px;
 }
 
+
+/* ---------Header css-------- */
+
 .header {
     min-height: 350px;
 }
@@ -79,6 +85,8 @@ ul {
     color: #E5E7EB;
 }
 
+/* ---------Sign up button css-------- */
+
 .button {
     font-size: 18px;
     color: #E5E7EB;
@@ -95,3 +103,33 @@ ul {
 .button:hover {
     color:lightblue;
 }
+
+/* ---------Informatiion section css-------- */
+.boxes .information {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.boxes .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-box {
+    flex: 1;
+    margin: 10px 10px;
+    max-width: 300px;
+}
+
+.image-box img {
+    border-radius: 10px;
+    max-width: 300px;
+    max-height: 300px;
+    margin-bottom: 10px;
+}
+
+
+
